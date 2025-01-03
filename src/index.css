@@ -20,6 +20,12 @@ body {
   .btn_dark_green { 
     @apply bg-gray-600 px-6 py-3 text-white transition-all hover:bg-black;
   }
+  .btn_white{
+    @apply  border-white bg-gray-300 px-8 py-5 text-green-500;
+  }
+  .btn_dark_green_outline  { 
+    @apply border-gray-400 bg-green-400 px-8 py-5 text-black
+  }
   
 
 }
